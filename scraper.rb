@@ -43,7 +43,6 @@ class Scraper
 			end
 		end
 		@rows << [county_name, office, phone, website].flatten!	
-		binding.pry	
 	end			
 
 	def write_into_CSV_file
